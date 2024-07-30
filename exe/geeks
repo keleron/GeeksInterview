@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require_relative "../lib/geeks"
+
+runner = Geeks::Runner.new(ARGV)
+result = runner.run
+
+puts "Costo de financiamiento: #{Geeks::Money.format_number(result[:financing_cost])}"
+puts "Giro a recibir: #{Geeks::Money.format_number(result[:amount_to_recieve])}"
+puts "Excedentes: #{Geeks::Money.format_number(result[:excess])}"
