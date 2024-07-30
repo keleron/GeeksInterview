@@ -3,6 +3,7 @@
 - Run `bundle install`
 - Run `rspec` for run tests
 - Run `rubocop` to check Ruby style guide compliance
+- Run `rake` to run all tasks (including tests and RuboCop)
 - Usage with CLI, `chmod +x exe/geeks`
 - Run `exe/geeks --help` for more information about the CLI usage.
 - Run the program with CLI, example:
